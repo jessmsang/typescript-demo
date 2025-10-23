@@ -8,7 +8,7 @@ TS Demo Video Steps:
 2. npm -v (check npm is installed)
 3. npm init -y (create package.json file)
 4. npm install --save-dev typescript (install ts locally as a devDependency)
-5. npx tsc -v (creates tsconfig.json file)
+5. npx tsc --init (creates tsconfig.json file)
 6. edit tsconfig file:
     a. "target": "es6" OR "target": "ES2020"
     b. "rootDir": "./src"
