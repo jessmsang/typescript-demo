@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "npm-check-updates": "^19.1.1"
+  },
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "description": "1. mkdir typescript-demo 2. cd typescript-demo 3. npm i typescript -g 4. npx tsc --init OR tsc --init (creates tsconfig.json file)",
+  "main": "index.js",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
