@@ -21,6 +21,6 @@ TS Demo Video Steps:
 9. npx tsc (runs typscript compiler to output clean JS files into "dist" directory)
 10. node dist/index.js
 11. add these to "scripts" in package.json: 
-    a. "build": "tsc",
+    a. "build": "tsc"
     b. "start": "node dist/index.js"
     c. "dev": "tsc --watch"
